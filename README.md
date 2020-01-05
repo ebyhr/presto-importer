@@ -1,4 +1,4 @@
-presto-io is a command to import a local file to specific table. 
+presto-importer is a command to import a local file to specific table. 
 
 How to use  
 1. Create sample table.
@@ -33,9 +33,9 @@ How to use
     false,10,-10,100,1000,-10.0,10,10,Open,j,2020-01-10
     ```
 
-3. Run presto-io.jar
+3. Run presto-importer.jar
     ```
-    $ ./presto-io.jar --server localhost:8080 --table schema.catalog.table -f sample.csv
+    $ ./presto-importer.jar --server localhost:8080 --table schema.catalog.table -f sample.csv
     ```
 
 This command uses PREPARED STATEMENT internally. If you gets below error,

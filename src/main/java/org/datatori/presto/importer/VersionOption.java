@@ -25,7 +25,7 @@ public class VersionOption
     public boolean showVersionIfRequested()
     {
         if (version) {
-            String clientVersion = PrestoIo.class.getPackage().getImplementationVersion();
+            String clientVersion = PrestoImporter.class.getPackage().getImplementationVersion();
             System.out.println("Presto IO " + firstNonNull(clientVersion, "(version unknown)"));
         }
         return version;

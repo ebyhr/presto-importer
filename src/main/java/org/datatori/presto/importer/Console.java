@@ -34,7 +34,7 @@ import java.util.Optional;
 import static com.google.common.base.Preconditions.checkState;
 import static java.lang.String.format;
 
-@Command(name = "presto-io", description = "Presto io console")
+@Command(name = "presto-importer", description = "Presto importer console")
 public class Console
 {
     @Inject
