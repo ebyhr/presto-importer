@@ -10,8 +10,8 @@
         <version>91</version>
     </parent>
 
-    <groupId>org.ebyhr</groupId>
-    <artifactId>presto-io</artifactId>
+    <groupId>org.datatori</groupId>
+    <artifactId>presto-importer</artifactId>
     <version>0.1</version>
 
     <name>presto-io</name>
@@ -30,7 +30,7 @@
         <air.main.basedir>${project.basedir}</air.main.basedir>
         <air.java.version>1.8.0-151</air.java.version>
         <air.maven.version>3.3.9</air.maven.version>
-        <main-class>org.ebyhr.presto.io.PrestoIo</main-class>
+        <main-class>org.datatori.presto.importer.PrestoIo</main-class>
     </properties>
 
     <dependencies>
