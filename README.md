@@ -1,8 +1,12 @@
+# Presto importer
+[![Build Status](https://github.com/datatori/presto-importer/workflows/CI/badge.svg)](https://github.com/datatori/presto-importer/actions?query=workflow%3ACI+event%3Apush+branch%3Amaster)  
+
+
 presto-importer is a command to import a local file to specific table. 
 
 How to use  
 1. Create sample table.
-    ```
+    ```sql
     CREATE TABLE schema.catalog.table (
      c1 boolean,
      c2 tinyint,
