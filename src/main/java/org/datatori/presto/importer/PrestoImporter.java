@@ -15,9 +15,9 @@ package org.datatori.presto.importer;
 
 import static io.airlift.airline.SingleCommand.singleCommand;
 
-public final class PrestoIo
+public final class PrestoImporter
 {
-    private PrestoIo() {}
+    private PrestoImporter() {}
 
     public static void main(String[] args)
     {
