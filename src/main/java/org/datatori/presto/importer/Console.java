@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ebyhr.presto.io;
+package org.datatori.presto.importer;
 
 import au.com.bytecode.opencsv.CSVReader;
 import io.airlift.airline.Command;
